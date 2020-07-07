@@ -1,0 +1,4 @@
+!!! Note: pricing DOES NOT reflect TCO due to the wild and widely differing AWS margin !!!
+
+Instance Type    Memory             vCPUs  Storage               Network             Price       Monthly     Spot Price
+r5ad.2xlarge     64 GiB           8 vCPUs  1 x 300 NVMe SSD      10 Gigabit          0.5240      382.520     0.1425    
