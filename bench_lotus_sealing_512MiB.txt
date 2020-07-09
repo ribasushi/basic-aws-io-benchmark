@@ -1,0 +1,36 @@
+
+r5ad.2xlarge
+
+lotus version 0.4.1+git.7d841dbf.dirty
+
+2020-07-09T16:53:53.026Z	INFO	lotus-bench	lotus-bench/main.go:484	[1] Writing piece into sector...
+2020-07-09T16:54:08.277Z	INFO	lotus-bench	lotus-bench/main.go:518	[1] Running replication(1)...
+2020-07-09T16:55:01.486Z	INFO	lotus-bench	lotus-bench/main.go:529	[1] Running replication(2)...
+2020-07-09T16:59:10.316Z	INFO	lotus-bench	lotus-bench/main.go:551	[1] Generating PoRep for sector (1)
+2020-07-09T16:59:10.355Z	INFO	lotus-bench	lotus-bench/main.go:559	[1] Generating PoRep for sector (2)
+2020-07-09T17:00:53.669Z	INFO	lotus-bench	lotus-bench/main.go:613	[1] Unsealing sector
+2020-07-09T17:01:45.515Z	INFO	lotus-bench	lotus-bench/main.go:295	generating winning post candidates
+2020-07-09T17:01:45.515Z	INFO	lotus-bench	lotus-bench/main.go:313	computing winning post snark (cold)
+2020-07-09T17:02:04.468Z	INFO	lotus-bench	lotus-bench/main.go:321	computing winning post snark (hot)
+2020-07-09T17:02:23.488Z	INFO	lotus-bench	lotus-bench/main.go:361	computing window post snark (cold)
+2020-07-09T17:02:28.010Z	INFO	lotus-bench	lotus-bench/main.go:369	computing window post snark (hot)
+----
+results (v27) (536870912)
+seal: addPiece: 15.251657265s (33.57 MiB/s)
+seal: preCommit phase 1: 53.20868092s (9.622 MiB/s)
+seal: preCommit phase 2: 4m8.830373841s (2.058 MiB/s)
+seal: commit phase 1: 39.011497ms (12.82 GiB/s)
+seal: commit phase 2: 1m43.298351929s (4.957 MiB/s)
+seal: verify: 14.790516ms
+unseal: 51.845857774s  (9.875 MiB/s)
+
+generate candidates: 107.511µs (4.542 TiB/s)
+compute winning post proof (cold): 18.953321457s
+compute winning post proof (hot): 18.932144797s
+verify winning post proof (cold): 71.488112ms
+verify winning post proof (hot): 16.699814ms
+
+compute window post proof (cold): 4.52193473s
+compute window post proof (hot): 4.514425957s
+verify window post proof (cold): 28.272368ms
+verify window post proof (hot): 15.24871ms
