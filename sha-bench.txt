@@ -1,0 +1,9 @@
+OpenSSL 1.1.1f  31 Mar 2020
+built on: Mon Apr 20 11:53:50 2020 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: gcc -fPIC -pthread -Wa,--noexecstack -Wall -Wa,--noexecstack -g -O2 -fdebug-prefix-map=/build/openssl-9j6sUa/openssl-1.1.1f=. -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_TLS_SECURITY_LEVEL=2 -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+sha1            207044.19k   544321.30k  1057665.71k  1377038.34k  1515320.66k  1526311.59k
+sha256          190428.58k   525939.03k  1059928.83k  1414083.93k  1573183.49k  1585938.43k
+sha512           43704.66k   174722.88k   259530.50k   361181.53k   407721.30k   411811.84k
