@@ -1,0 +1,4 @@
+!!! Note: pricing DOES NOT reflect TCO due to the wild and widely differing AWS margin !!!
+
+Instance Type    Memory             vCPUs  Storage               Network             Price       Monthly     Spot Price
+c5a.16xlarge     128 GiB         64 vCPUs  EBS only              20 Gigabit          2.4640      1798.720    1.0364    

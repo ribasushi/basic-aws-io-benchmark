@@ -1,0 +1,1 @@
+Linux ip-172-31-56-45 5.4.0-1018-aws #18-Ubuntu SMP Wed Jun 24 01:15:00 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
