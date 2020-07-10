@@ -1,0 +1,4 @@
+!!! Note: pricing DOES NOT reflect TCO due to the wild and widely differing AWS margin !!!
+
+Instance Type    Memory             vCPUs  Storage               Network             Price       Monthly     Spot Price
+c6g.metal        128 GiB         64 vCPUs  EBS only              25 Gigabit          2.1760      1588.480    3.2646    
