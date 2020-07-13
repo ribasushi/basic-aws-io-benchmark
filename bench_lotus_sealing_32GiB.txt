@@ -1,0 +1,61 @@
+
+c6g.metal
+
+lotus version 0.4.1+git.89a6b684.dirty
+
+2020-07-11T22:25:36.721Z	INFO	lotus-bench	lotus-bench/main.go:484	[1] Writing piece into sector...
+2020-07-11T22:39:40.373Z	INFO	lotus-bench	lotus-bench/main.go:518	[1] Running replication(1)...
+2020-07-12T06:28:44.995Z	INFO	lotus-bench	lotus-bench/main.go:529	[1] Running replication(2)...
+2020-07-12T08:33:46.487Z	INFO	lotus-bench	lotus-bench/main.go:551	[1] Generating PoRep for sector (1)
+2020-07-12T08:33:57.437Z	INFO	lotus-bench	lotus-bench/main.go:559	[1] Generating PoRep for sector (2)
+2020-07-12T14:12:07.425Z	INFO	lotus-bench	lotus-bench/main.go:613	[1] Unsealing sector
+2020-07-12T21:48:57.347Z	INFO	lotus-bench	lotus-bench/main.go:295	generating winning post candidates
+2020-07-12T21:48:57.509Z	INFO	lotus-bench	lotus-bench/main.go:313	computing winning post snark (cold)
+2020-07-12T21:49:18.542Z	INFO	lotus-bench	lotus-bench/main.go:321	computing winning post snark (hot)
+2020-07-12T21:49:36.475Z	INFO	lotus-bench	lotus-bench/main.go:361	computing window post snark (cold)
+2020-07-12T22:38:46.428Z	INFO	lotus-bench	lotus-bench/main.go:369	computing window post snark (hot)
+----
+results (v27) (34359738368)
+seal: addPiece: 14m3.652532267s (38.84 MiB/s)
+seal: preCommit phase 1: 7h49m4.611855148s (1.164 MiB/s)
+seal: preCommit phase 2: 2h5m1.500695957s (4.368 MiB/s)
+seal: commit phase 1: 10.950495507s (2.922 GiB/s)
+seal: commit phase 2: 5h38m9.868143619s (1.615 MiB/s)
+seal: verify: 115.892445ms
+unseal: 7h36m49.886302393s  (1.195 MiB/s)
+
+generate candidates: 199.536661ms (160.4 GiB/s)
+compute winning post proof (cold): 21.032613768s
+compute winning post proof (hot): 17.754819997s
+verify winning post proof (cold): 143.246743ms
+verify winning post proof (hot): 35.100127ms
+
+compute window post proof (cold): 49m9.953329455s
+compute window post proof (hot): 46m25.79447416s
+verify window post proof (cold): 19.557953287s
+verify window post proof (hot): 110.956423ms
+
+
+	Command being timed: "./bench sealing --sector-size=32GiB"
+	User time (seconds): 814123.83
+	System time (seconds): 28476.19
+	Percent of CPU this job got: 934%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 25:03:20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 129985324
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 39975395
+	Minor (reclaiming a frame) page faults: 1005542846
+	Voluntary context switches: 536596648
+	Involuntary context switches: 10966749
+	Swaps: 0
+	File system inputs: 2992772896
+	File system outputs: 1555757608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
